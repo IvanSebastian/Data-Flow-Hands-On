@@ -10,10 +10,19 @@ import UIKit
 
 class DataConfirmedScreenViewController: UIViewController {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var phoneLabel: UILabel!
+    
+    var fullName:String!
+    var phoneNumber:String!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        nameLabel.text = fullName
+        phoneLabel.text = phoneNumber
+        
+        
+        
     }
     
 
