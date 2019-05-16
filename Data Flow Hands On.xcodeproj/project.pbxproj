@@ -12,6 +12,7 @@
 		C50746AA228DA1E80057CA20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50746A8228DA1E80057CA20 /* Main.storyboard */; };
 		C50746AC228DA1E90057CA20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50746AB228DA1E90057CA20 /* Assets.xcassets */; };
 		C50746AF228DA1E90057CA20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50746AD228DA1E90057CA20 /* LaunchScreen.storyboard */; };
+		C50746B7228DA2980057CA20 /* DataConfirmedScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50746B6228DA2980057CA20 /* DataConfirmedScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C50746AB228DA1E90057CA20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C50746AE228DA1E90057CA20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C50746B0228DA1E90057CA20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50746B6228DA2980057CA20 /* DataConfirmedScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConfirmedScreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				C50746AB228DA1E90057CA20 /* Assets.xcassets */,
 				C50746AD228DA1E90057CA20 /* LaunchScreen.storyboard */,
 				C50746B0228DA1E90057CA20 /* Info.plist */,
+				C50746B6228DA2980057CA20 /* DataConfirmedScreenViewController.swift */,
 			);
 			path = "Data Flow Hands On";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50746B7228DA2980057CA20 /* DataConfirmedScreenViewController.swift in Sources */,
 				C50746A7228DA1E80057CA20 /* ViewController.swift in Sources */,
 				C50746A5228DA1E80057CA20 /* AppDelegate.swift in Sources */,
 			);
