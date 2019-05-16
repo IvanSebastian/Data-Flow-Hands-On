@@ -25,7 +25,16 @@ class ViewController: UIViewController {
         
         
         
-        
+        func prepare(for segue:UIStoryboardSegue, sender:Any?)
+        {
+            if let destination = segue.destination as?
+            DataConfirmedScreenViewController
+            {
+                destination.fullName = fullNameTextField.text
+                
+                destination.phoneNumber = phoneTextField.text
+            }
+        }
     }
 
 
